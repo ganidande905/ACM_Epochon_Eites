@@ -1,0 +1,123 @@
+{
+    "activities": {
+      "transportation": {
+        "car": {
+          "emission_factor": 0.25,
+          "unit": "kgCO2_per_km",
+          "description": "Average carbon emissions for a car based on fuel efficiency."
+        },
+        "bike": {
+          "emission_factor": 0.05,
+          "unit": "kgCO2_per_km",
+          "description": "Carbon emissions for a bike, considering manufacturing and maintenance."
+        },
+        "walk": {
+          "emission_factor": 0,
+          "unit": "kgCO2_per_km",
+          "description": "Walking does not produce carbon emissions."
+        },
+        "bus": {
+          "emission_factor": 0.1,
+          "unit": "kgCO2_per_km",
+          "description": "Average carbon emissions for public bus travel per kilometer."
+        },
+        "train": {
+          "emission_factor": 0.2,
+          "unit": "kgCO2_per_km",
+          "description": "Average carbon emissions for a train ride."
+        }
+      },
+      "electricity": {
+        "emission_factor": 0.85,
+        "unit": "kgCO2_per_kWh",
+        "description": "Average carbon emission per kilowatt-hour of electricity used in the region."
+      },
+      "gas": {
+        "emission_factor": 1.0,
+        "unit": "kgCO2_per_m3",
+        "description": "Carbon emissions based on natural gas consumption."
+      },
+      "water": {
+        "emission_factor": 0.3,
+        "unit": "kgCO2_per_liter",
+        "description": "Carbon emissions from water usage, factoring in energy used to pump and treat water."
+      },
+      "food": {
+        "beef": {
+          "emission_factor": 27.0,
+          "unit": "kgCO2_per_kg",
+          "description": "Carbon emissions from producing 1 kg of beef."
+        },
+        "chicken": {
+          "emission_factor": 6.9,
+          "unit": "kgCO2_per_kg",
+          "description": "Carbon emissions from producing 1 kg of chicken."
+        },
+        "vegetables": {
+          "emission_factor": 1.5,
+          "unit": "kgCO2_per_kg",
+          "description": "Average carbon emissions from producing 1 kg of vegetables."
+        }
+      }
+    },
+    "user_data": {
+      "user_id": "12345",
+      "name": "John Doe",
+      "total_emission": 15.4,
+      "transportation_emission": 5.5,
+      "electricity_emission": 3.4,
+      "gas_emission": 2.0,
+      "water_emission": 1.2,
+      "food_emission": 3.3,
+      "recommendations": [
+        "Consider using public transport or a bike instead of a car to reduce emissions.",
+        "Switch to energy-efficient appliances to lower your electricity emissions.",
+        "Use energy from renewable sources to reduce your carbon footprint.",
+        "Minimize water usage to reduce indirect carbon emissions from water treatment.",
+        "Try reducing red meat consumption (e.g., replace beef with chicken or plant-based alternatives)."
+      ],
+      "history": [
+        {
+          "date": "2024-12-01",
+          "emission_data": {
+            "transportation": 3.0,
+            "electricity": 1.5,
+            "gas": 0.5,
+            "water": 0.3,
+            "food": 2.0
+          }
+        },
+        {
+          "date": "2024-12-02",
+          "emission_data": {
+            "transportation": 2.5,
+            "electricity": 1.6,
+            "gas": 0.6,
+            "water": 0.2,
+            "food": 2.1
+          }
+        }
+      ]
+    },
+    "goals": {
+      "short_term": {
+        "emission_reduction_goal": 2.0,
+        "timeframe": "3 months",
+        "strategies": [
+          "Switch to energy-efficient bulbs.",
+          "Reduce driving distance by using public transport or a bike.",
+          "Cut down on water usage by fixing leaks and using water-efficient devices."
+        ]
+      },
+      "long_term": {
+        "emission_reduction_goal": 10.0,
+        "timeframe": "1 year",
+        "strategies": [
+          "Install solar panels to generate clean electricity.",
+          "Adopt a plant-based diet for reducing food emissions.",
+          "Switch to electric vehicles or hybrid cars."
+        ]
+      }
+    }
+  }
+  
