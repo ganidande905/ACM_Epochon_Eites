@@ -39,6 +39,14 @@ Track and analyze your environmental impact across key areas:
 
     Dark Mode
         Optional dark theme for reduced screen strain.
+# Working images 
+![WhatsApp Image 2024-12-01 at 6 44 49 PM](https://github.com/user-attachments/assets/056ca7d3-326b-44a3-a038-5f253092e89f)
+
+file:///home/saichakri/Downloads/WhatsApp%20Image%202024-12-01%20at%206.44.51%20PM.jpeg
+file:///home/saichakri/Downloads/WhatsApp%20Image%202024-12-01%20at%206.44.50%20PM(2).jpeg
+file:///home/saichakri/Downloads/WhatsApp%20Image%202024-12-01%20at%206.44.50%20PM(1).jpeg
+file:///home/saichakri/Downloads/WhatsApp%20Image%202024-12-01%20at%206.44.50%20PM.jpeg
+
 
 # 🛠️ Technologies Used
 
