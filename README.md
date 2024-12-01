@@ -108,9 +108,9 @@ Track and analyze your environmental impact across key areas:
 # 👨‍💻 Contributing
     We welcome contributions! Here’s how you can get involved:
     Fork the repository.
-    Create a new branch (git checkout -b feature/your-feature).
-    Commit your changes (git commit -m "Add your feature").
-    Push to the branch (git push origin feature/your-feature).
+    Create a new branch 
+    Commit your changes 
+    Push to the branch 
     Open a pull request.
 # 🙌 Acknowledgments
 
