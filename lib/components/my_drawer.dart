@@ -10,6 +10,7 @@ class MyDrawer extends StatefulWidget {
 }
 
 class _MyDrawerState extends State<MyDrawer> {
+
   void logout() {
     Navigator.pushReplacement(
       context,
