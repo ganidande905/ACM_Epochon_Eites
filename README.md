@@ -72,5 +72,9 @@ Track and analyze your environmental impact across key areas:
 # 🙌 Acknowledgments
 
 Special thanks to eco-conscious individuals and organizations for inspiring us to make this app. Let’s create a future where sustainability is second nature
+## Video
+
+https://github.com/user-attachments/assets/86a185e9-30c6-4538-a324-f8b552b8b881
+
 
     
