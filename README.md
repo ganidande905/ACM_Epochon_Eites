@@ -56,7 +56,15 @@ Track and analyze your environmental impact across key areas:
     Install Dependencies
     Run the App
 # 📋 Features in Detail
- 1) Navigation Drawer
+1) Streak Logic
+   Keep track of daily eco-friendly actions with smart streak detection
+   bool _isConsecutiveDay(String lastDate, String todayDate) {  
+  DateTime lastChecked = DateFormat('yyyy-MM-dd').parse(lastDate);  
+  DateTime today = DateFormat('yyyy-MM-dd').parse(todayDate);  
+  return today.difference(lastChecked).inDays == 1;  
+}  
+
+2) Navigation Drawer
     class MyDrawer extends StatelessWidget {  
   @override  
   Widget build(BuildContext context) {  
@@ -75,6 +83,35 @@ Track and analyze your environmental impact across key areas:
   }  
 }  
 
+3) Eco-Activity Tile
+   A reusable widget for activity tracking
+   Widget _activityTile(String title, String description, IconData icon, VoidCallback onTap) {  
+  return GestureDetector(  
+    onTap: onTap,  
+    child: Container(  
+      padding: const EdgeInsets.all(16),  
+      decoration: BoxDecoration(  
+        color: Colors.white,  
+        borderRadius: BorderRadius.circular(15),  
+        boxShadow: const [BoxShadow(color: Colors.black12, blurRadius: 4)],  
+      ),  
+      child: Row(  
+        children: [  
+          Icon(icon, color: Colors.green),  
+          SizedBox(width: 16),  
+          Text(title, style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),  
+        ],  
+      ),  
+    ),  
+  );  
+}  
+# 👨‍💻 Contributing
+    We welcome contributions! Here’s how you can get involved:
+    Fork the repository.
+    Create a new branch (git checkout -b feature/your-feature).
+    Commit your changes (git commit -m "Add your feature").
+    Push to the branch (git push origin feature/your-feature).
+    Open a pull request.
 # 🙌 Acknowledgments
 
 Special thanks to eco-conscious individuals and organizations for inspiring us to make this app. Let’s create a future where sustainability is second nature
