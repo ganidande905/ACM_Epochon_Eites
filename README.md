@@ -41,13 +41,10 @@ Track and analyze your environmental impact across key areas:
         Optional dark theme for reduced screen strain.
 # Working images 
 ![WhatsApp Image 2024-12-01 at 6 44 49 PM](https://github.com/user-attachments/assets/056ca7d3-326b-44a3-a038-5f253092e89f)
-
-file:///home/saichakri/Downloads/WhatsApp%20Image%202024-12-01%20at%206.44.51%20PM.jpeg
-file:///home/saichakri/Downloads/WhatsApp%20Image%202024-12-01%20at%206.44.50%20PM(2).jpeg
-file:///home/saichakri/Downloads/WhatsApp%20Image%202024-12-01%20at%206.44.50%20PM(1).jpeg
-file:///home/saichakri/Downloads/WhatsApp%20Image%202024-12-01%20at%206.44.50%20PM.jpeg
-
-
+![WhatsApp Image 2024-12-01 at 6 44 50 PM(1)](https://github.com/user-attachments/assets/43fbcf71-16bc-4d61-afaa-791143f7c55e)
+![WhatsApp Image 2024-12-01 at 6 44 50 PM](https://github.com/user-attachments/assets/4066e881-56dd-4152-ae00-0c2690cd226d)
+![WhatsApp Image 2024-12-01 at 6 44 51 PM](https://github.com/user-attachments/assets/08a6ebba-1f56-44ee-8884-4e3330b57c02)
+![WhatsApp Image 2024-12-01 at 6 44 50 PM(2)](https://github.com/user-attachments/assets/6537896c-d5c4-473c-ba47-7ca42ca5f4a2)
 # 🛠️ Technologies Used
 
     Flutter & Dart: To deliver a responsive and beautiful user experience.
