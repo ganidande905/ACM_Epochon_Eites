@@ -50,6 +50,8 @@ Track and analyze your environmental impact across key areas:
     Flutter & Dart: To deliver a responsive and beautiful user experience.
     SharedPreferences: For storing user preferences, streaks, and progress locally.
     Intl Package: Handles date formatting and calculations for streak tracking.
+# PPT 
+  https://amritauniv-my.sharepoint.com/:p:/g/personal/am_sc_u4cse23110_am_students_amrita_edu/Eb4D4KGwL8ZKrLmTtZ3IHkkBWEdmnUZfIFboLjBD5nOYvg?e=6flWyh
 # Getting started
     Prerequisites
 
